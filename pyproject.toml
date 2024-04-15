@@ -16,15 +16,15 @@ django-compressor = "~4.4.0"
 django-environ = "~0.11.2"
 django-model-utils = "~4.3.1"
 django-redis = "~5.4.0"
-django = "~5.0.0"
+django = "~5.0.3"
 hiredis = "~2.3.0"
-pillow = "~10.1.0"
+pillow = "~10.3.0"
 python-slugify = "~8.0.1"
 whitenoise = "~6.6.0"
 psycopg = { extras = ["c"], version = "^3.1.14" }
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.11.0"
+black = "^24.3.0"
 django-coverage-plugin = "^3.1.0"
 django-debug-toolbar = "^4.2.0"
 django-extensions = "^3.2.3"
