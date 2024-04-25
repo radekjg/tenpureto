@@ -1,4 +1,4 @@
-FROM postgres:16.1-bullseye
+FROM postgres:16.2-bullseye
 
 COPY ./compose/production/postgres/maintenance /usr/local/bin/maintenance
 RUN chmod +x /usr/local/bin/maintenance/*
