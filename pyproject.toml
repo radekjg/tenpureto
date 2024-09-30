@@ -46,7 +46,7 @@ pytest-cov = "^4.1.0"
 [tool.poetry.group.production.dependencies]
 django-anymail = "10.2"
 gunicorn = "21.2.0"
-psycopg = { version = "3.1.15", extras = ["c"] }
+psycopg = { version = "3.2.3", extras = ["c"] }
 
 [build-system]
 requires = ["poetry-core"]
